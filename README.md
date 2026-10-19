@@ -10,7 +10,7 @@ Windows 桌面 AI 角色桌宠。当前角色：散兵 Q 版。
 - 最新安装包：[Releases](../../releases/latest)
 - 当前版本：**v0.1.0**
 - 文件：`CharacterPet-Setup-0.1.0.exe`（约 270MB）
-- SHA256：`c9b802fab05ef033d4f09e24a9ae303a2b4202e8eabce7a79c674c7001e78ecc`
+- SHA256：`c4590626e074d0eefee0c34b550348eb36d116668de35a8bfb8d8ce081242c81`
 - 系统：Windows 10/11 x64；无需管理员权限；建议 4GB+ 内存、300MB+ 磁盘。
 
 ## 安装
