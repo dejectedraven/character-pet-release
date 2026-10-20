@@ -2,7 +2,7 @@
 
 ## 1. 下载与安装
 
-- 下载 `CharacterPet-Setup-0.2.1.exe`。
+- 下载 `CharacterPet-Setup-0.2.2.exe`。
 - 双击运行；SmartScreen 提示未知发布者时选“更多信息 → 仍要运行”。
 - 安装位置：`%LOCALAPPDATA%\Programs\CharacterPet`；自动创建桌面、开始菜单快捷方式并启动。
 - 不需要管理员权限，不写 `Program Files` / 系统目录。
@@ -37,6 +37,7 @@ v0.2.0 起，首次成功激活后会在启动时和每 6 小时自动检查角�
 - 任务：调用本机 `opencode serve`；选择工作目录，填写任务，可选模型，开始/停止/新会话。
 - 任务模式需要本机安装 `opencode` CLI；未安装时闲聊仍可用。
 - 任务完成后摘要回到桌宠气泡；详细日志保留在任务面板。
+- 右键桌宠 →“打开 OpenCode”可直接唤起同一个 CLI 任务窗（不是 OpenCode 桌面版）。
 
 ## 7. 托盘与退出
 

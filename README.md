@@ -8,14 +8,14 @@ Windows 桌面 AI 角色桌宠。当前角色：散兵 Q 版。
 ## 下载
 
 - 最新安装包：[Releases](../../releases/latest)
-- 当前版本：**v0.2.1**
-- 文件：`CharacterPet-Setup-0.2.1.exe`（约 231MB）
-- SHA256：`a904da1ad5c1381a44fc989b1142cc413ba920c3ceda7fbe66368031e897f484`
+- 当前版本：**v0.2.2**
+- 文件：`CharacterPet-Setup-0.2.2.exe`（约 231MB）
+- SHA256：`8bf5efea76cc5f3aff3752f658abc34adb28d309860d80ed9a401b33176ff7fd`
 - 系统：Windows 10/11 x64；无需管理员权限；建议 4GB+ 内存、500MB+ 磁盘。
 
 ## 安装
 
-1. 下载 `CharacterPet-Setup-0.2.1.exe`。
+1. 下载 `CharacterPet-Setup-0.2.2.exe`。
 2. 双击运行。Windows SmartScreen 可能提示未知发布者，选择“更多信息 → 仍要运行”。
 3. 安装到 `%LOCALAPPDATA%\Programs\CharacterPet`，自动创建桌面与开始菜单快捷方式并启动。
 4. 安装包不安装系统服务，不写系统目录，不需要管理员权限。
@@ -54,7 +54,7 @@ API Key 只保存在本机桌宠数据目录的 `llm.json`（位于 `%APPDATA%\C
 
 - 主程序常驻系统托盘；桌宠是独立透明置顶小窗。
 - 托盘菜单：对话 / API 设置、闲聊 / 任务模式、语音（F5）、解锁新形象、打开数据目录、退出。
-- 点桌宠打开右键菜单；可碎碎念、对话、拖动、点击互动。
+- 点桌宠打开右键菜单：打开 OpenCode、查看余额、碎碎念、对话、回到初始位置等；可拖动、点击互动。
 
 ## 自动更新
 

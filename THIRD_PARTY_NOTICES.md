@@ -31,8 +31,8 @@ Electron runtime contains LICENSE and LICENSES.chromium.html.
 
 ## F5-TTS
 
-F5-TTS is not bundled in v0.1.0. If installed separately, follow the F5-TTS
-project's license and model terms.
+F5-TTS is not bundled in the installer. If installed separately, follow the
+F5-TTS project's license and model terms.
 
 ## Character assets
 
