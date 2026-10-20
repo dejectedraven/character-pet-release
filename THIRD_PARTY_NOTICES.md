@@ -1,10 +1,9 @@
 ﻿# Third-party notices
 
-## dsh-pet
+## Desktop pet engine
 
 MIT License
 Copyright (c) 2026 PC2005-cloud
-https://github.com/PC2005-cloud/dsh-pet
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -8,14 +8,14 @@ Windows 桌面 AI 角色桌宠。当前角色：散兵 Q 版。
 ## 下载
 
 - 最新安装包：[Releases](../../releases/latest)
-- 当前版本：**v0.2.0**
-- 文件：`CharacterPet-Setup-0.2.0.exe`（约 229MB）
-- SHA256：`4c6a964a97738ed857a52f5f026cfb1256dc21880770bf2c900ee4a7beff8be0`
+- 当前版本：**v0.2.1**
+- 文件：`CharacterPet-Setup-0.2.1.exe`（约 231MB）
+- SHA256：`a904da1ad5c1381a44fc989b1142cc413ba920c3ceda7fbe66368031e897f484`
 - 系统：Windows 10/11 x64；无需管理员权限；建议 4GB+ 内存、500MB+ 磁盘。
 
 ## 安装
 
-1. 下载 `CharacterPet-Setup-0.2.0.exe`。
+1. 下载 `CharacterPet-Setup-0.2.1.exe`。
 2. 双击运行。Windows SmartScreen 可能提示未知发布者，选择“更多信息 → 仍要运行”。
 3. 安装到 `%LOCALAPPDATA%\Programs\CharacterPet`，自动创建桌面与开始菜单快捷方式并启动。
 4. 安装包不安装系统服务，不写系统目录，不需要管理员权限。
@@ -48,13 +48,7 @@ Windows 桌面 AI 角色桌宠。当前角色：散兵 Q 版。
 - **本机 Ollama**：先启动 Ollama，点“检测本机 Ollama”，选择/填写模型（默认 `qwen3.5:9b`）。
 - **暂不配置**：桌宠仍可启动，动作/动画正常；对话关闭。之后从托盘“对话 / API 设置”重新配置即可恢复。
 
-API Key 只保存在本机：
-
-```text
-%APPDATA%\CharacterPet\home\dsh-pet\llm.json
-```
-
-不会上传到本项目服务器。
+API Key 只保存在本机桌宠数据目录的 `llm.json`（位于 `%APPDATA%\CharacterPet\home\` 下），不会上传到本项目服务器。
 
 ### 4. 启动后
 
@@ -97,9 +91,10 @@ v0.2.0 起，首次成功激活后会把解锁码用 Windows 本地加密保存�
 
 ```text
 %APPDATA%\CharacterPet\
-  home\dsh-pet\llm.json       对话后端配置
-  home\dsh-pet\memory.json    对话记忆
-  home\dsh-pet\main-config.jsonc  角色实例配置（解锁后写入）
+  home\                      桌宠数据目录
+    llm.json                 对话后端配置
+    memory.json              对话记忆
+    main-config.jsonc        角色实例配置（解锁后写入）
   packs\                      角色包
   unlocked.json               已解锁形象
   activation.json             本机激活记录
@@ -130,5 +125,5 @@ v0.2.0 起，首次成功激活后会把解锁码用 Windows 本地加密保存�
 ## 许可与声明
 
 - 本项目为私有分发；未经许可不得再分发安装包或角色资产。
-- 上游 dsh-pet（MIT）、Electron（MIT）等第三方组件遵循各自许可；见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- 上游桌宠引擎（MIT）、Electron（MIT）等第三方组件遵循各自许可；见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 - 角色相关素材仅用于本项目私人桌面宠物，不代表米哈游官方。

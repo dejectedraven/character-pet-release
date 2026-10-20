@@ -2,7 +2,7 @@
 
 ## 1. 下载与安装
 
-- 下载 `CharacterPet-Setup-0.2.0.exe`。
+- 下载 `CharacterPet-Setup-0.2.1.exe`。
 - 双击运行；SmartScreen 提示未知发布者时选“更多信息 → 仍要运行”。
 - 安装位置：`%LOCALAPPDATA%\Programs\CharacterPet`；自动创建桌面、开始菜单快捷方式并启动。
 - 不需要管理员权限，不写 `Program Files` / 系统目录。
@@ -41,7 +41,7 @@ v0.2.0 起，首次成功激活后会在启动时和每 6 小时自动检查角�
 ## 7. 托盘与退出
 
 - 托盘菜单：对话 / API 设置、闲聊 / 任务模式、语音（F5）、解锁新形象、打开数据目录、退出。
-- 退出托盘程序后桌宠窗口、DSH 服务、OpenCode 服务和 F5 一起退出。
+- 退出托盘程序后桌宠窗口、桌宠服务、OpenCode 服务和 F5 一起退出。
 - 数据目录：`%APPDATA%\CharacterPet`。
 
 ## 8. 语音（可选）

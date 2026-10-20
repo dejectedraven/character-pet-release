@@ -1,1 +1,1 @@
-4c6a964a97738ed857a52f5f026cfb1256dc21880770bf2c900ee4a7beff8be0  CharacterPet-Setup-0.2.0.exe
+a904da1ad5c1381a44fc989b1142cc413ba920c3ceda7fbe66368031e897f484  CharacterPet-Setup-0.2.1.exe
