@@ -1,5 +1,13 @@
 # Changelog - Character Pet
 
+## 0.2.10 - 2026-10-22
+
+### 激活兜底（补）
+
+- 备用激活站换成 Deno Deploy（`character-pet-relay.deno.dev`），排在原 Cloudflare Pages 前面。原因很实际：Cloudflare 用 GitHub 登录不通，Deno 注册顺利。
+- 现在的顺序是：本机 `relay.json` 覆盖 → Netlify 主站 → Deno Deploy → Cloudflare Pages。判定规则不变，只有明确的 4xx 结论才停下。
+- 除此之外没有行为变化；已装 0.2.9 的用户不需要升级，除非他们遇到 Netlify 整站暂停。
+
 ## 0.2.9 - 2026-10-22
 
 ### 激活兜底
