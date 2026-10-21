@@ -8,14 +8,14 @@ Windows 桌面 AI 角色桌宠。当前角色：散兵 Q 版。
 ## 下载
 
 - 最新安装包：[Releases](../../releases/latest)
-- 当前版本：**v0.2.8**
-- 文件：`CharacterPet-Setup-0.2.8.exe`（约 231MB）
-- SHA256：`3a5b0f4c0387d91a40afaf88292e66622daf92bb98518a3f539a06ce37469a41`
+- 当前版本：**v0.2.9**
+- 文件：`CharacterPet-Setup-0.2.9.exe`（约 231MB）
+- SHA256：`ab48c51d34cf6acafe1cf32a90b3c10045ee0d9e13f913454356f7f7a59058d1`
 - 系统：Windows 10/11 x64；无需管理员权限；建议 4GB+ 内存、500MB+ 磁盘。
 
 ## 安装
 
-1. 下载 `CharacterPet-Setup-0.2.8.exe`。
+1. 下载 `CharacterPet-Setup-0.2.9.exe`。
 2. 双击运行。Windows SmartScreen 可能提示未知发布者，选择“更多信息 → 仍要运行”。
 3. 安装到 `%LOCALAPPDATA%\Programs\CharacterPet`，自动创建桌面与开始菜单快捷方式并启动。
 4. 安装包不安装系统服务，不写系统目录，不需要管理员权限。
@@ -33,7 +33,7 @@ Windows 桌面 AI 角色桌宠。当前角色：散兵 Q 版。
 
 ### 2. 网络要求
 
-激活和角色包下载通过 Netlify 中转，国内普通网络可直接使用，不需要自己配置代理。第一次激活请保持网络畅通；角色包约 10.8MB。
+激活请求通过 relay 中转（主站 Netlify，备用站 Cloudflare Pages，客户端按序自动回退），角色包由 GitHub Release 分发，国内普通网络可直接使用，不需要自己配置代理。第一次激活请保持网络畅通；角色包约 10.8MB。
 
 ### 3. 对话后端
 
