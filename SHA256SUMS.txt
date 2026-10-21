@@ -1,1 +1,2 @@
+5cbf6fba5fbb313555f34270f22c56f9a80e96feb884ffcaf823a5c5cbb44eb1  CharacterPet-Setup-0.2.6.exe
 3d65fd771a6ef3df2a656b49e7c19f3b197fe3ebfee9588a910263cd6bc93fa6  CharacterPet-Setup-0.2.5.exe
