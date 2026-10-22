@@ -1,5 +1,13 @@
 # Changelog - Character Pet
 
+## 0.2.14 — 2026-10-22
+
+任务页「模型」从手打改成下拉，设置页补上第三方接口。
+
+- **模型下拉**：合并 `~/.config/opencode/opencode.jsonc` 的 provider（含你自己加的 ollama / aliyun）、`opencode models` 的完整清单、`auth.json` 的登录状态。本机模型排前面并标 `(local)`；未登录服务商列出但标「未连接」不可选；OpenCode Zen 免费池标「（Zen 免费）」。保留「自定义（provider/model）」兜底。
+- **设置页新增「其他服务商（OpenAI 兼容）」**：Base URL + Key + 模型即可切换，OpenAI、Kimi、通义、豆包、智谱、Groq、OpenRouter、自建 vLLM / LM Studio 都能接。
+- 形象包仍是 `main-0.1.6`（15 条动作），不需要重发角色包；覆盖安装即可，解锁状态/记忆/配置都保留。
+
 ## 0.2.13 - 2026-10-22
 
 - 任务模式：修「显示任务完成但什么都没做」——不再用 `run --attach`（opencode 1.19.2 在该参数下静默退出 0），CLI 自己起临时 server，会话仍用 `--session` 续接。
