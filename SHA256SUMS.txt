@@ -1,3 +1,4 @@
+dd67c89df11be1c2fd6fdcf9ae95df22e297245811b8c30bdf3b78837a12ee71  CharacterPet-Setup-0.2.16.exe
 c475f102d1cacc05e5f72807a1003c248bd74c88e1e94fe82552da050ba0ed3d  CharacterPet-Setup-0.2.15.exe
 3688d9bee5fdbe4de8fb13ed48c4c0238ec989b2c8fc805d4521415288e41933  CharacterPet-Setup-0.2.14.exe
 c08496cae9b10b5351bae9b1e1e95cebba87eb31d6efff580c98080a8c62f85e  CharacterPet-Setup-0.2.13.exe
