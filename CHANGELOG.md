@@ -1,3 +1,11 @@
+## 0.2.17 — 2026-10-24
+
+- 点击桌面宠物的任意一下，会播放一个橡皮鸭式的短 squeak（230ms）。
+- 音效随托盘「动画音效」开关：关掉后宿主让 `/sfx/*` 返回 404，客户端静默跳过。
+- 角色包可用 `packs/<id>/sfx/click-squeak.wav` 覆盖内置音效。
+- 安装包：`CharacterPet-Setup-0.2.17.exe`（242,764,288 B）
+  - SHA256：`c544fef4483993ed8fa8cdcf58dc30854990b5c9eaedfc0fbf091d126a9a530a`
+
 # Changelog - Character Pet
 
 ## 0.2.16 — 2026-10-24
