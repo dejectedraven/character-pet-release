@@ -2,7 +2,7 @@
 
 ## 1. 下载与安装
 
-- 下载 `CharacterPet-Setup-0.2.18.exe`。
+- 下载 `CharacterPet-Setup-0.2.19.exe`。
 - 双击运行；SmartScreen 提示未知发布者时选“更多信息 → 仍要运行”。
 - 安装位置：`%LOCALAPPDATA%\Programs\CharacterPet`；自动创建桌面、开始菜单快捷方式并启动。
 - 不需要管理员权限，不写 `Program Files` / 系统目录。
